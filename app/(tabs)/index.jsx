@@ -1,11 +1,14 @@
-// import "././global.css"
-import { colorScheme } from 'nativewind';
-import { Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
 
-export default function App() {
+const index = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-blue-500">
-      <Text className="text-white text-xl font-bold bg-white">Hello, Tailwind!</Text>
+    <View>
+      <Text className='bg-white'>index</Text>
     </View>
-  );
+  )
 }
+
+export default index
+
+const styles = StyleSheet.create({})

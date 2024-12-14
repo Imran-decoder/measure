@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Len-Dim",
-    "slug": "Len-Dim",
+    "name": "app3",
+    "slug": "app3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": ["**/*"],
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -24,7 +23,6 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "nativewind",
       "expo-router",
       [
         "expo-splash-screen",
